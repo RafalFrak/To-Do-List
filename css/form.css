@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 767px) {
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form__input {
+         margin-bottom: 15px;
+    }
+
+    .tasks__content {
+        padding: 0 10px 0 10px;
+    }
+
+}
+
+.form__input {
+    flex-basis: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form__button {
+    flex-basis: 20%;
+    padding: 10px;
+    background: hsl(180, 100%, 25%);
+    color: white;
+    border: none;
+}
+
+.form__button:hover {
+    background:hsl(180, 100%, 30%)
+}
+
+.form__button:active {
+    background: hsl(180, 100%, 35%)
+}
