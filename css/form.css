@@ -1,6 +1,7 @@
 .form {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 @media(max-width: 767px) {
@@ -16,23 +17,23 @@
     }
 
     .tasks__content {
-        padding: 0 10px 0 10px;
+        padding: 0 10px;
     }
 
 }
 
 .form__input {
-    flex-basis: 70%;
+    flex-grow: 1;
     padding: 10px;
     border: 1px solid #ddd;
 }
 
 .form__button {
-    flex-basis: 20%;
     padding: 10px;
     background: hsl(180, 100%, 25%);
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .form__button:hover {
