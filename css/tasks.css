@@ -17,6 +17,10 @@
     flex-basis: 90%;
 }
 
+.tasks__item--hidden {
+    display: none;
+}
+
 .tasks__content--done {
     text-decoration: line-through;
 }
