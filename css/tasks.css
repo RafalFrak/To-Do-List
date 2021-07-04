@@ -33,6 +33,7 @@
     height: 30px;
     padding: 0;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .tasks__button--toggleDone {
@@ -41,6 +42,7 @@
 
 .tasks__button--toggleDone:hover {
     background: hsl(120, 61%, 39%);
+    transform: scale(1.1);
 }
 
 .tasks__button--toggleDone:active {
@@ -53,6 +55,7 @@
 
 .tasks__button--remove:hover {
     background: hsl(348, 83%, 52%);
+     transform: scale(1.1);
 }
 
 .tasks__button--remove:active {
