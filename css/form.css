@@ -23,7 +23,7 @@
 }
 
 .form__input {
-    flex-grow: 1;
+    flex-basis: 70%;
     padding: 10px;
     border: 1px solid #ddd;
 }
